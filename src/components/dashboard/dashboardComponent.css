@@ -5,17 +5,17 @@
 }
 
 .content {
-flex-grow: 1;
-display: flex;
-justify-content: center;
-align-items: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .loading {
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-width: 100vw;
-font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 1.5rem;
 }

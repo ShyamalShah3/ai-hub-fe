@@ -7,7 +7,6 @@ import { TypeAnimation } from 'react-type-animation'
 const HomePage = () => {
     return (
         <div className="homepage">
-            <h1>
                 <TypeAnimation
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
@@ -24,10 +23,10 @@ const HomePage = () => {
                     ]}
                     wrapper="span"
                     speed={50}
-                    style={{ fontSize: '1em', display: 'inline-block' }}
+                    style={{ fontSize: '6em', display: 'inline-block' }}
                     repeat={Infinity}
+                    className='typed-text'
                 />
-            </h1>
             <Link to="/dashboard" style={{ textDecoration: 'none' }}>
                 <IconButton aria-label='fingerprint' color='secondary' size='large' className='fingerprint-button'>
                     <Fingerprint />

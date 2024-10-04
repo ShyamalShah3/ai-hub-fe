@@ -1,5 +1,4 @@
 .rootcomponent{
-    padding: 16px 64px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -31,6 +30,7 @@
 
     main{
         flex: 1;
-        overflow: hidden;
+        display: flex;
+        padding: 0; /* Removed padding to avoid pushing sidebar */
     }
 }
